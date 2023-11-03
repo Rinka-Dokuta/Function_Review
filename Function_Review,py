@@ -1,0 +1,26 @@
+def rocket_launch():
+    for i in range (10,0, -1):
+        print(f"{i}...")
+    print("Blast off!")
+    
+rocket_launch()
+        
+#------------------
+
+def elevator_check(weight):
+    if weight > 1000:
+        print ("overload!")
+        
+elevator_check(2000)
+
+#-------------------
+
+def traffic_light(color):
+    if color == "Red":
+        print("Stop!")
+    elif color == "Yellow":
+        print("Slow down")
+    else:
+        print("Go!")
+        
+traffic_light(Red)
